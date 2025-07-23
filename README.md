@@ -52,7 +52,7 @@ Edit
 ## 🚀 Getting Started
 
 1. Clone the repository  
-git clone https://github.com/your-username/Agriculture.git
+[git clone: https://github.com/Ahmad9540/Agriculture_UI
 
 
 
