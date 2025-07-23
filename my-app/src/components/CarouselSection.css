@@ -1,0 +1,137 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.carousel,
+.carousel-inner,
+.carousel-item {
+  height: 100vh;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  filter: brightness(0.7);
+}
+
+
+.circle-text-wrapper {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.425);
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.circle-text-wrapper svg {
+  width: 100%;
+  height: 100%;
+  animation: spin 10s linear infinite;
+}
+
+.circle-text-wrapper text {
+  font-size: 16px;
+  fill: white;
+  font-weight: bold;
+}
+
+.center-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 32px;
+  z-index: 1;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes growToFull {
+  0% {
+    transform: scale(0.2);  
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.1);  
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);    
+  }
+}
+
+.leaf img {
+  animation: growToFull 2s ease-out forwards;
+  transform-origin: top center;
+}
+
+
+.top-slide {
+  animation: down 1s ease-out forwards;
+  animation-delay: 0.5s;
+  opacity: 0;
+}
+@keyframes down {
+  0% {
+    transform: translateY(0%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(20%);
+    opacity: 1;
+  }
+}
+
+.down-slide {
+  animation: up 1s ease-out forwards;
+  animation-delay: 0.5s;
+  opacity: 0;
+}
+
+.btn-slide {
+  animation: fadeInUp 0.8s ease-out forwards;
+  animation-delay: 1.5s;
+  opacity: 0;
+}
+
+@keyframes up {
+  0% {
+    transform: translateY(20%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(20%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+ 

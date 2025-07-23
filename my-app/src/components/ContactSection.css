@@ -1,0 +1,108 @@
+.contact-wrapper {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  overflow: hidden;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+
+.left-section {
+  flex: 1;
+  background-color: #edf5f2;
+  position: relative;
+  padding: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+.farmer-img {
+  position: absolute;
+  top: 50%;
+  left: -60px; 
+  transform: translateY(-50%);
+  height: 420px; 
+  object-fit: contain;
+  z-index: 1;
+  pointer-events: none;
+}
+
+
+
+.contact-form-box {
+  background: white;
+  padding: 5rem;
+  border-radius: 10px;
+  width: 600px;
+  height: 600px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+ 
+  position: relative;
+  left: 120px; 
+  z-index: 2;
+}
+
+
+.small-title {
+  color: #3e8b63;
+  font-weight: lighter;
+  font-size: 1.5rem;
+  font-family: cursive;
+}
+
+.form-heading {
+  font-weight: bold;
+  margin-bottom: 1rem;
+   font-size: 2.2rem;
+}
+
+
+.right-section {
+  flex: 1;
+  background-color: #174b3f;
+  color: white;
+  padding: 8rem;
+  padding-left: 12rem; 
+  position: relative;
+}
+
+
+.info-title {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.highlight {
+  color: #ffe28c;
+}
+
+.info-desc {
+  margin: 1rem 0;
+  font-size: 18px;
+  color: #ccc;
+}
+
+.info-item {
+  margin: 1rem 0;
+}
+
+.plant-img {
+  position: absolute;
+  bottom: 10px;
+  right: 30px;
+  height: 400px;
+}
+
+.contact-form-box input,
+.contact-form-box textarea {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 20px; 
+  font-size: 1rem;
+}

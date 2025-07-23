@@ -1,0 +1,88 @@
+
+.footer-section {
+  background-color: #1f4d3a;
+  color: #fff;
+  position: relative;
+  font-size: 18px; 
+  letter-spacing: 0.5px; 
+}
+
+.footer-logo {
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.footer-links li {
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  letter-spacing: 0.7px;
+}
+
+.footer-links li:hover {
+  color: #ffc107;
+}
+
+.subscribe-box {
+  margin-top: 20px;
+}
+
+
+.subscribe-box input {
+  border-radius: 25px 0 0 25px;
+  border: none;
+  padding: 14px 20px;      
+  font-size: 18px;         
+  letter-spacing: 0.5px;
+  width: 260px;            
+  height: 50px;            
+}
+
+
+.subscribe-btn {
+  border-radius: 0 25px 25px 0;
+  padding: 10px 20px;
+  color: #000;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+.post-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.scroll-top {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  background: #ffc107;
+  color: black;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+
+
+.footer-section h5 {
+  margin-bottom: 16px;  
+}
+
+
+.contact-info p {
+  font-size: 22px;        
+  margin-bottom: 20px;    
+  line-height: 1.8;       
+}

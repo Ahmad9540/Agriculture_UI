@@ -1,0 +1,31 @@
+.image-box {
+  padding: 15px;
+  border: 10px solid #f5c66e;
+  display: inline-block;
+}
+
+.progress-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner-circle {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.percent-text {
+  font-size: 20px;
+  color: #f5c66e;
+  font-weight: bold;
+}
